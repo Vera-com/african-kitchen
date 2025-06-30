@@ -57,7 +57,6 @@ This is a summary of the user-centric planning of the website using the must-hav
 ---
 
 ### User Story 3 **MUST-HAVES**
-
 **As a user**,I want to see the list of ingredients for each dish to enable me prepare without being confused.
 **Acceptance Criteria:** 
 - [] The homepage displays a section with names "ingredints"
@@ -69,8 +68,18 @@ This is a summary of the user-centric planning of the website using the must-hav
 - [] This section must have a visually appealing layout
 
 ---
+### User Story 4  **MUST-HAVES**
+**As a user**, I would like to know if this site has at least basic contact info or social media to see more information.
+**Acceptance Criteria**:
+- [] Simple footer with icons
+- [] Mobile-friendly
 
-### User Story 4 **SHOULD-HAVES**
+**Task:**
+- [] Add footer with social icons using Bootstrap
+- [] Style for all screen sizes
+---
+### User Story 5
+ **SHOULD-HAVES**
 **As a user**, I want to be able to download, screenshot or screenrecord a recipe to enable me use it offline.
 
 **Acceptance Criteria:**  
@@ -82,7 +91,7 @@ Download/button works and PDF opens clearly.
 
 ---
 
-### User Story 5  **SHOULD-HAVES**
+### User Story 6  **SHOULD-HAVES**
 **As a user**, I want a form where I can ask questions or suggest a recipe and possibly request for a private training.
 
 **Acceptance Criteria:**  
@@ -91,48 +100,27 @@ The form is functional and submission is acknowledged.
 **Task**
 - [ ]Add Google Form in Contact section
 - [ ] Test submission and success message/reponse
+---
 
-
-### Story 6  **SHOULD-HAVES**
+### Story 7 **SHOULD-HAVES**
 **As a user**, I’d love to share my own recipes or submit feedback.
 **Acceptance Criteria**:
 - [] Submission form or call-to-action
 **Task**
 Add placeholder CTA or section for “Submit Your Recipe”
 ---
-### User Story 7  **SHOULD-HAVES**
-**As a user**, I would like a footer with  at least basic contact info or social media to see more information.
-**Acceptance Criteria**:
-- [] Simple footer with icons
-- [] Mobile-friendly
+### User Story 8 **COULD-HAVES**
+As a user, I want a brief cultural backstory of each dish to enable me connect to my heritage and testimonials from past users of the website.
 
-**Task:**
-- [] Add footer with social icons using Bootstrap
-- [] Style for all screen sizes
----
-### User Story 8  **SHOULD-HAVES**
-**As a user**, I want to be able to quickly scroll to different sections using the navigation bar.
-
-**Acceptance Criteria:**  
-Clicking a navbar item scrolls smoothly to the various sections.
+Acceptance Criteria:
+- [] Story is visible, engaging, and culturally relevant.
 
 **Task**
-- [ ] Use anchor links like (`#ingredients`, `#contact`)
-- [ ] Add smooth scrolling behavior using JavaScript/CSS
+- [] Add short paragraph/story above or below each recipe
+- [] Add some testimonials and reviews from the website users
 ---
 
 ### User Story 9  **COULD-HAVES**
-**As a user**, I want a brief cultural backstory of each dish to enale me connect to my heritage.
-
-**Acceptance Criteria:**  
-Story is visible, engaging, and culturally relevant.
-
-**Task**
-- [ ] Add short paragraph/story above or below each recipe
-
----
-
-### User Story 10  **COULD-HAVES**
 **As a user**, I want to save my favorite recipe or share it with friends.
 
 **Acceptance Criteria:**  
