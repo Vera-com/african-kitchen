@@ -178,15 +178,15 @@ Each of the recipe card includes an embedded YouTube video to serve as guide for
 ## Wireframes
 ### Mobile
 The Navbar collapses to hamburger and Sections stack vertically.
-![Mobile Wireframe](images/wireframe-mobile.png)
+![Mobile Wireframe](assets/images/mobile-wireframe.png)
 
 ### Tablet
 The layout  in the tablet or ipad balances 2-columns and the Images adjust in size.
-![Tablet Wireframe](images/wireframe-tablet.png)
+![Tablet Wireframe](assets/images/tablet-wireframe.png)
 
 ### Desktop/Laptop
  Full navbar, welcome message and hero carousel side by side, recipe grid, ingredients, download and form button and the footer with social links.
- ![Desktop Wireframe](images/wireframe-desktop.png)
+ ![Desktop Wireframe](assets/images/destop-wireframe.png)
 -
 
 # Features
