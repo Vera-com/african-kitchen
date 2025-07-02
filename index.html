@@ -23,10 +23,7 @@
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-
-  <body>
-    <header>
+  
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -68,20 +65,21 @@
           </div>
         </div>
       </nav>
-    </header>
+    </head>
 
+ <body>
     <!-- Hero section with Carousel -->
-     <section id="hero" class="container-fluid bg-light py-5">
+     <header id="hero" class="container-section">
         <div class="row align-items-center">
             <!--Welcome section-->
-            <div class="col-12 col-xl-6 text-center text-xl-start">
-                <h1>Welcome to Afrcan Kitchen</h1>
-                <p class="lead mt-3">Bringing the taste of home to Africans in the diaspora.</p>
-                <a href="#recipes class=btn-primary">Explore Recipes</a> 
+            <div class="col-12 col-xl-6 text-center text-xl-start py-4">
+                <h1 class="display-6">Welcome to African Kitchen</h1>
+                <p class="lead display-6 sub-heading-color">Bringing the taste of home to Africans in the diaspora.</p>
+                <a href="#recipes" class="btn btn-warning mb-4">Explore Recipes</a> 
             </div>
                           <!-- Carousel Section --> 
-        <div class="col-md-6 px-0">     
-     <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="col-12 col-xl-6">     
+     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="assets/images/rice-grilled-fish.jpeg" class="d-block w-100" alt="Jollof rice served hot with grilled fish and protein">
@@ -96,7 +94,7 @@
       <img src="assets/images/okro-and-stew.jpg" class="d-block w-100" alt="Fresh Okro Soup">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/Amala_Gbegiri_with_Ewedu.jpg" class="d-block w-100" alt="A delightful plate of shito">
+      <img src="assets/images/Amala_Gbegiri_with_Ewedu.jpg" class="d-block w-100" alt="A delightful plate of Amala gbegiri and Ewedu soup">
     </div>
     <div class="carousel-item">
       <img src="assets/images/well-garnished-moi-moi.webp" class="d-block w-100" alt="Mouth hwatering moi moi">
@@ -116,16 +114,18 @@
   </div>
 
   <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
   </button>
   </div>
   </div>
  </div>
-     </section>
+    </header>
 
 
 
