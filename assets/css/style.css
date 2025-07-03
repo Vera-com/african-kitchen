@@ -11,7 +11,7 @@
 /* General style */
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px;
+    padding-top: 70px;
 }
 h1, h2, h3 {
     font-family: var(--secondary-font);
@@ -46,3 +46,94 @@ h2 {
     padding :7px 25px;
     color:var(--highlight-color)
   }
+/* Navbar section */
+#navbar {
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.5rem 1rem; /* This is to adjust spaceing inside the navbar */
+}
+#navbar .logo {
+    width: 30px;
+}
+
+/* Hero Header */
+#hero .lead {
+    font-family: var(--secondary-font);
+}
+#hero h1, #hero p {
+    text-align: center;
+}
+
+/* Recipes  section */
+#recipes .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+#recipes .card {
+    margin-bottom: 1.5rem;
+}
+
+/* Ingredients section */
+#ingredients .table {
+    font-size: 0.8rem;
+}
+.download-button {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+/* Contact */
+#contact-us {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#contact-us h2 {
+    color: white;
+}
+#contact-us .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+#contact-us i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+#contact-us .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+#contact-us .social-links i:hover {
+    color: var(--secondary-color);
+}
+#contact-us .table-dark * {
+    background-color: transparent;
+    
+}
+#form-section {
+    padding: 2rem 1rem;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 0;
+}
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 0;
+}
+footer .container {
+    max-width: 100%;
+}
+@media  screen and (min-width768px) {
+    #hero h1,
+    #hero p {
+        text-align: left;
+    }
+}
