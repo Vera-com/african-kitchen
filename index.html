@@ -215,14 +215,14 @@
 </section>
 
   <!-- Contact Form Section -->
-<section id="#contact-us" class="container section">
+<section id="contact-us" class="container section">
   <div class="row justify-content-center">
     <div class="col-12 text-center">
       <h2 class="display-6">Contact Us</h2>
       <p class="mb-4">We'd love to hear from you! Send us a Feedback.</p>
     </div>
     <div class="col-12 col-md-8">
-      <form action="#" method="GET">
+      <form action="thankyou.html" method="GET">
         <div class="mb-3">
           <label for="fullName" class="form-label">Full Name</label>
           <input type="text" class="form-control" id="fullName" name="fullName" required>
@@ -260,5 +260,27 @@
     ></script>
     <!--Bootstrap Js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
   </body>
 </html>
