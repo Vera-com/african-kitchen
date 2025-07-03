@@ -1,43 +1,48 @@
-.navbar {
-    background-color: #3c2a21; /* Deep African brown */
-}
-.navbar a {
-    color:#fdbe34; /* Golden yellow text */
-}
+/* Google fonts import */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
-#hero {
-    background-color: #fff;
+/* CSS Variables */ 
+:root {  --primary-font: "Inter", sans-serif;    
+        --secondary-font: "Macondo", cursive;     
+        --primary-color: #3a2620;  /* dark brown */    
+         --secondary-color: #e8caa4;  /* warm beige */     
+         --highlight-color: #b33c12;  /* warm red-orange */     
+         --highlight-color-light: #f3a67f;  /* light peach */
+         }
+/* General style */
+body {
+    font-family: var(--primary-font);
+    padding-top: 57.15px;
 }
-#hero-img {
-    height: 400px; 
-    object-fit: cover; 
-    border-radius: 12px;
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
-.hero-img {
-    height: 250px;
+h1, h2 {
+    text-transform: uppercase;
+}
+h2 {
+    margin-bottom: 2rem;
+}
+.suh-heading-color {
+    color: var(--highlight-color);
+}
+.section {
+    padding-top: 4rem;
+}
+/* For the buttons */
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+ .custom-button-filled:hover {
+  border: 2px solid var(--secondary-color);   
+    background-color: var(--secondary-color);
+  color: white; 
 } 
-#hero h1 {
-    font-size: 1.8rem;
-
-}
-#hero p {
-    font-size: 1rem;
-}
-.hero-content {
-    padding-top: 1.5rem;
-padding-bottom: 2rem;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-.carousel-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-@media (max-width:768px) {
-     #hero .carousel-item img {
-        height:200px;
-        } 
-}
+  
+.custom-button-outline { 
+    border: 3px solid var(--highlight-color); 
+    padding :7px 25px;
+    color:var(--highlight-color)
+  }
