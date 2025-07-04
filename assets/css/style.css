@@ -58,7 +58,9 @@ h2 {
 #navbar .logo {
     width: 30px;
 }
-
+.navbar-brand {
+    margin-left: -10px;
+}
 /* Hero Header */
 #hero .lead {
     font-family: var(--secondary-font);
