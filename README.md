@@ -9,9 +9,10 @@ This website is focused on sharing African recipes and cooking tips basically fo
 - [Design section](#design-section)
 - [Wireframes](#wireframes)
 - [Technologies Used](#technologies-used)
+- [Structure](#structure)
 - [Features](#features)
 - [Credits Section](#credits-section)
-
+---
 # User Experience section
 
 This project is designed in view of real life users. For Africans living in diaspora, students who are away from home, food lovers and many others to reconnect back home through good homemade African food. The following section will describe the user goals, the acceptance criteria and the must complete task to enable the website to be accessible and meet the demands of users.
@@ -239,6 +240,15 @@ Full navbar, welcome message and hero carousel side by side, recipe grid, ingred
 ![Desktop Wireframe](assets/images/destop-wireframe.png)
 
 ---
+### Responsive Design
+Here i've attached the updated wireframe structure based on current layout across mobile, tablet and desktop.
+![Wireframe Preview](assets/images/final-wireframe-mobile)
+![Wireframe Preview](assets/images/final-wireframe-tablet)
+![Wireframe Preview](assets/images/final-wireframe-desktop)
+
+
+
+
 
 # Features
 
@@ -260,6 +270,10 @@ Full navbar, welcome message and hero carousel side by side, recipe grid, ingred
 - **Favicon** (for Logo & header)
 - **Font Awesome** (for social links icon)
 - **JavaScript** (for scrolling and navbar behavior)
+
+## Structure
+├── index.html ├── thankyou.html ├── assets/ │ ├── css/ │ │ └── style.css │ ├── images/ │ │ └── [carousel, favicon, logo, meals, wireframe] │ └── pdfs/ │ └── [Egusi, Jollof, Oha, Ewedu recipes] ├── README.md
+
 
 ## Challenges I Faced & How I Solved Them
 
