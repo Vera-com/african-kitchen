@@ -223,7 +223,7 @@ Each of the recipe card includes an embedded YouTube video to serve as guide for
 This is an interactive section where users can pick their exact needed ingredient by clicking the "Downlooad" button.
 
 ## Wireframes
-
+The wireframes below was created using **Balsamiq Wireframes** to help visualise layout across differnet screen sizes lika the mobile, tablets and desktop.
 ### Mobile
 
 The Navbar collapses to hamburger and Sections stack vertically.
@@ -242,9 +242,9 @@ Full navbar, welcome message and hero carousel side by side, recipe grid, ingred
 ---
 ### Responsive Design
 Here i've attached the updated wireframe structure based on current layout across mobile, tablet and desktop.
-![Wireframe Preview](assets/images/final-wireframe-mobile)
-![Wireframe Preview](assets/images/final-wireframe-tablet)
-![Wireframe Preview](assets/images/final-wireframe-desktop)
+![Wireframe Preview](assets/images/final-wireframe-mobile.png)
+![Wireframe Preview](assets/images/final-wireframe-tablet.png)
+![Wireframe Preview](assets/images/final-wireframe-desktop.png)
 
 
 
