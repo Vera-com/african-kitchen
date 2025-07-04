@@ -261,6 +261,11 @@ Here i've attached the updated wireframe structure based on current layout acros
 - Social media footer icons.
 
 ## Future implementations
+- Add a search bar for recipes and ingredients.
+- Include a newsletter subscription form.
+- Integrate recipe ratings and reviews.
+- Add multilingual support for a broader audience.
+
 
 ## TECHNOLOGIES USED
 - **HTML5**
@@ -292,7 +297,15 @@ Here i've attached the updated wireframe structure based on current layout acros
 
 ## DEPLOYMENT & LOCAL DEVELOPMENT
 
-Deployment instructions
+### Deployment instructions
+This project has deployed using **GitHub Pages**.
+
+1. Navigate to the repository on GitHub.
+2. Click on **Settings**.
+3. Scroll down to the **Pages** section in the left sidebar.
+4. Under **Source**, select the `main` branch and `/root` folder.
+5. Click **Save** then the site will be live shortly at the provided GitHub Pages URL.
+
 Local development-how to fork
 Local development-how to clone
 
