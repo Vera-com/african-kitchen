@@ -97,5 +97,13 @@
     ></script>
     <!--Bootstrap Js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<!-- Javascript to help remove form values from the URL when the form is submitted -->
+    <script>
+  if (window.location.href.includes('thankyou.html')) {
+    // remove query params
+    window.history.replaceState({}, document.title, 'thankyou.html');
+  }
+</script>
+
   </body>
 </html>
