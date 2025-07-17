@@ -1,136 +1,140 @@
-/* Google fonts import */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+/* Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Macondo&display=swap');
 
-/* CSS Variables */ 
-:root {  --primary-font: "Inter", sans-serif;    
-        --secondary-font: "Macondo", cursive;     
-        --primary-color: #3a2620;  /* dark brown */    
-         --secondary-color: #e8caa4;  /* warm beige */     
-         --highlight-color: #b33c12;  /* warm red-orange */     
-         --highlight-color-light: #f3a67f;  /* light peach */
-         }
-/* General style */
-body {
-    font-family: var(--primary-font);
-    padding-top: 57.15px;
-    overflow-x: hidden; /* Fix the horizontal scroll */
-}
-main {
-    flex: 1;
+:root {
+  --primary-color: #000000;      /* Black for navbar/footer */
+  --text-light: #ffffff;         /* White text */
+  --accent-color: #ffc107;       /* Bootstrap warning yellow */
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: 'Macondo', cursive;
 }
 
-h1, h2, h3 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
+/* Global style */
+* {
+  box-sizing: border-box;
 }
-h1, h2 {
-    text-transform: uppercase;
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--primary-font);
+  background-color: var(--text-light); /* Optional: white bg */
+  color: #000;
 }
-h2 {
-    margin-bottom: 2rem;
+
+/* Containers */
+.container,
+.container-section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
-.suh-heading-color {
-    color: var(--highlight-color);
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
-.section {
-    padding-top: 4rem;
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  overflow-x: hidden;
 }
-/* For the buttons */
-.custom-button-filled {
-    border: 2px solid var(--highlight-color);
-    background-color: var(--highlight-color);
-    color: white;
-}
- .custom-button-filled:hover {
-  border: 2px solid var(--secondary-color);   
-    background-color: var(--secondary-color);
-  color: white; 
-} 
-  
-.custom-button-outline { 
-    border: 3px solid var(--highlight-color); 
-    padding :7px 25px;
-    color:var(--highlight-color)
-  }
-/* Navbar section */
-#navbar {
-    background-color: var(--primary-color);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 0.5rem 1rem; /* This is to adjust spaceing inside the navbar */
-}
-#navbar .logo {
-    width: 30px;
-}
+
 .navbar-brand {
-    margin-left: -10px;
-}
-/* Hero main */
-#hero .lead {
-    font-family: var(--secondary-font);
-}
-#hero h1, #hero p {
-    text-align: center;
+  font-family: var(--secondary-font);
+  color: var(--text-light);
+  white-space: nowrap;
 }
 
-/* Recipes  section */
-#recipes .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
-    background-color: transparent;
-}
-#recipes .card {
-    margin-bottom: 1.5rem;
+/* Hero Image */
+#hero img {
+  max-width: 100%;
+  height: auto;
 }
 
-/* Ingredients section */
-#ingredients .table {
-    font-size: 0.8rem;
-}
-.download-button {
-    display: block;
-    margin: 1rem auto;
-    text-align: center;
-}
-#contact-us {
-    background-color: transparent;
-    padding-bottom: 4rem irem;
-    margin-bottom: 0;
-}
-#contact-us h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-
-}
-#contact-us form{
-    max-width : 600px;
-    margin :auto;
+/* Main Section (Flex layout) */
+main {
+  flex: 1;
+  margin-top: 2.3rem;
 }
 
+/* Footer */
 footer {
-   background-color:#000;
-   color: #fff;
-    text-align: center;
-    padding: 15px 0;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 1rem 0;
+  text-align: center;
+  flex-shrink: 0;
 }
-@media  screen and (min-width768px) {
-    #hero h1,
-    #hero p {
-        text-align: left;
-    }
+
+/* CONTACT FORM */
+#contact-us {
+  padding: 2rem 1rem;
 }
-Apollo.io.example {
-    display: -ms-grid;
-    display: grid;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
-    background: -o-linear-gradient(top, white, black);
-    background: linear-gradient(to bottom, white, black);
+
+#contact-us h2 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  text-align: center;
 }
+
+#contact-us p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* FORMS */
+form label {
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: var(--primary-font);
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+form button {
+  background-color: var(--accent-color);
+  border: none;
+  color: #000;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e0a800;
+}
+
+
+#success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
