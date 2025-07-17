@@ -12,7 +12,12 @@
 body {
     font-family: var(--primary-font);
     padding-top: 57.15px;
+    overflow-x: hidden; /* Fix the horizontal scroll */
 }
+main {
+    flex: 1;
+}
+
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
@@ -88,52 +93,26 @@ h2 {
     margin: 1rem auto;
     text-align: center;
 }
-/* Contact */
 #contact-us {
-    background-color: var(--primary-color);
-    color: white;
-    padding-bottom: 0;
+    background-color: transparent;
+    padding-bottom: 4rem irem;
     margin-bottom: 0;
 }
 #contact-us h2 {
-    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
 }
-#contact-us .sub-heading-color {
-    color: var(--highlight-color-light);
+#contact-us form{
+    max-width : 600px;
+    margin :auto;
 }
-#contact-us i {
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    margin-right: 15px;
-}
-#contact-us .social-links i {
-    color: var(--highlight-color-light);
-    font-size: 1.9rem;
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
-}
-#contact-us .social-links i:hover {
-    color: var(--secondary-color);
-}
-#contact-us .table-dark * {
-    background-color: transparent;
-    
-}
-#form-section {
-    padding: 2rem 1rem;
-    max-width: 600px;
-    margin: auto;
-    margin-bottom: 0;
-}
+
 footer {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 2rem 1rem;
-    margin-top: 0;
-}
-footer .container {
-    max-width: 100%;
+   background-color:#000;
+   color: #fff;
+    text-align: center;
+    padding: 15px 0;
 }
 @media  screen and (min-width768px) {
     #hero h1,
