@@ -9,9 +9,21 @@
     <title>African Kitchen</title>
 
     <!-- Favicon converted by favicon.io-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Bootstrap CSS -->
@@ -19,240 +31,411 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous">
+      crossorigin="anonymous"
+    />
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-     </head>
-   <body class="d-flex flex-column min-vh-100">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/images/favicon-32x32.png"
-              alt="African Kitchen logo">
-            African Kitchen</a>
-          
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"
+      id="navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/images/favicon-32x32.png"
+            alt="African Kitchen logo"
+          />
+          <span>African Kitchen</span></a
+        >
 
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav">
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#hero">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#recipes">Recipes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ingredients">Ingredients</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-us">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recipes">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ingredients">Ingredients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-<main class="flex-fill">
-    <!-- Hero section with Carousel -->
+    <main class="flex-fill">
+      <!-- Hero section with Carousel -->
       <section id="hero" class="container-section py-5 bg-light">
         <div class="row align-items-center">
-            <!--Welcome section-->
-            <div class="col-12 col-xl-6 text-center text-xl-start py-4">
-                <h1 class="display-3">Welcome to African Kitchen</h1>
-                <p class="lead display-6 sub-heading-color">Bringing the taste of home to Africans in the diaspora.</p>
-               <div class="text-center" ><a href="#recipes" class="btn btn-warning">Explore Recipes</a></div>
+          <!--Welcome section-->
+          <div class="col-12 col-xl-6 text-center text-xl-start py-4">
+            <h1 class="display-3">Welcome to African Kitchen</h1>
+            <p class="lead display-6 sub-heading-color">
+              Bringing the taste of home to Africans in the diaspora.
+            </p>
+            <div class="text-center">
+              <a href="#recipes" class="btn btn-warning">Explore Recipes</a>
             </div>
-                          <!-- Carousel Section --> 
-        <div class="col-12 col-xl-6">     
-     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/images/rice-grilled-fish.jpeg" class="img-fluid w-100" alt="Jollof rice served hot with grilled fish and protein">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/Afang-soup.jpeg" class="img-fluid w-100" alt="Steamy Afang soup">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/efo-riro-with-assorted.jpg" class="img-fluid w-100" alt="Efo riro beautifully presented">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/okro-and-stew.jpg" class="img-fluid w-100" alt="Fresh Okro Soup">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/Amala_Gbegiri_with_Ewedu.jpg" class="img-fluid w-100" alt="A delightful plate of Amala gbegiri and Ewedu soup">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/well-garnished-moi-moi.webp" class="img-fluid w-100" alt="Mouth hwatering moi moi">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/Nigerian-stewed-chicken.jpg" class="img-fluid w-100" alt="A pot of tomatoe stew">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/varieties-and-rice.webp" class="img-fluid w-100" alt="Rice served with protein">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/nkwobi.jpg" class="img-fluid w-100" alt="A sumptous plate of Nkwobi">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/grain-and-fruits.jpg" class="d-block w-100 img-fluid w-100" alt="A sumptous plate of Nkwobi">
-    </div>
-  </div>
+          </div>
+          <!-- Carousel Section -->
+          <div class="col-12 col-xl-6">
+            <div
+              id="heroCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/rice-grilled-fish.jpeg"
+                    class="img-fluid w-100"
+                    alt="Jollof rice served hot with grilled fish and protein"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/Afang-soup.jpeg"
+                    class="img-fluid w-100"
+                    alt="Steamy Afang soup"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/efo-riro-with-assorted.jpg"
+                    class="img-fluid w-100"
+                    alt="Efo riro beautifully presented"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/okro-and-stew.jpg"
+                    class="img-fluid w-100"
+                    alt="Fresh Okro Soup"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/Amala_Gbegiri_with_Ewedu.jpg"
+                    class="img-fluid w-100"
+                    alt="A delightful plate of Amala gbegiri and Ewedu soup"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/well-garnished-moi-moi.webp"
+                    class="img-fluid w-100"
+                    alt="Mouth hwatering moi moi"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/Nigerian-stewed-chicken.jpg"
+                    class="img-fluid w-100"
+                    alt="A pot of tomatoe stew"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/varieties-and-rice.webp"
+                    class="img-fluid w-100"
+                    alt="Rice served with protein"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/nkwobi.jpg"
+                    class="img-fluid w-100"
+                    alt="A sumptous plate of Nkwobi"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/grain-and-fruits.jpg"
+                    class="d-block w-100 img-fluid w-100"
+                    alt="A sumptous plate of Nkwobi"
+                  />
+                </div>
+              </div>
 
-  <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-  </div>
-  </div>
- </div>
- </section>
-
-
-    <!-- Recipe Section With YouTube video -->
-<section id="recipes" class="container-section">
-  <div class="row">
-    <div class="col-12 text-center">
-      <h2 class="display-6">Recipes</h2>
-    </div>
-    <!--Egusi Soup-->
-<div class="col-12 col-md-6 col-xl-3 mb-4">
-  <div class="card h-100">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/XeZJlxAsP18"
-              title="Sisi Jemimah Egusi Soup Recipe"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title sub-heading-color">Egusi Soup</h3>
-      <p class="card-text">Learn how to make a rich, apetizing and creamy Egusi soup with our one of our favourites Sisi  Jemimah— This is perfect with pounded yam or any swallow of your choice.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Amala & Ewedu (Abula)-->
-<div class="col-12 col-md-6 col-xl-3 mb-4">
-  <div class="card h-100">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/daJYlOxTYrg"
-              title="Amala and Ewedu Cooking Tutorial"
-              allowfullscreen></iframe>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title sub-heading-color">Amala & Ewedu</h3>
-      <p class="card-text">Watch how to cook soft Amala paired with Ewedu and stew—the perfect Abula combination.</p>
-    </div>
-  </div>
-</div>
-
-<!--Oha Soup--> 
-<div class="col-12 col-md-6 col-xl-3 mb-4">
-  <div class="card h-100">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/OFkN2tOwIAM"
-              title="Oha Soup Recipe"
-              allowfullscreen></iframe>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title sub-heading-color">Oha Soup</h3>
-      <p class="card-text">Discover one of the traditional Igbo delicacy Oha soup from another amazing chef, Sisi Yemi. Oha soup is flavorful, and best enjoyed with fufu and eba.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Jollof Rice-->
-<div class="col-12 col-md-6 col-xl-3 mb-4">
-  <div class="card h-100">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/EfZEArZcfAY"
-              title="Nigerian Party Jollof Rice Recipe"
-              allowfullscreen></iframe>
-    </div>
-    <div class="card-body">
-      <h3 class="card-title sub-heading-color">Jollof Rice</h3>
-      <p class="card-text">Step-by-step Nigerian smoky Party Jollof Rice. Spicy and tasty, perfect for any gatherings.</p>
-    </div>
-  </div>
-</div>
-  </div>
-</section>
-
-           <!--Ingredients Section-->
-<section id="ingredients" class="container-section">
-  <div class="row">
-    <div class="col-12 text-center">
-      <h2 class="display-6">Ingredients</h2>
-      <h3 class="sub-heading-color">Download a list of ingredients for each recipe below:</h3>
-    </div>
-    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-    <a href="assets/pdfs/Nigerian-Egusi-Soup-Precious.pdf" download class="btn btn-outline-dark">Download Egusi Soup</a>
-    <a href="assets/pdfs/NigerianJollofricerecipe.pdf" download class="btn btn-outline-danger">Download Jollof Rice</a>
-    <a href="assets/pdfs/Oha-Soup-Recipe.pdf" download class="btn btn-outline-primary">Download Oha Soup</a>
-    <a href="assets/pdfs/Ewedu-Soup-Recipe-Chef-Lola's-Kitchen.pdf" download class="btn btn-outline-dark">Download Amala & Ewedu</a>
-  </div>
-  </div>
-</section>
-
-
-
-  <!-- Contact Form Section -->
-<section id="contact-us" class="contact-section bg-light py-5">
-  <div class="container">
-  <span class="col-12 text-center">
-      <h2 class="display-6">Contact Us</h2>
-      <h3 class="sub-heading-color">We'd love to hear from you! Send us a Feedback.</h3>
-  </span>
-      <form id="contactForm" action="thankyou.html" method="GET">
-        <div class="mb-3">
-          <label for="fullName" class="form-label">Full Name<span class="text-danger">*</span></label>
-          <input type="text" pattern=".*\S+.*" class="form-control" id="fullName" name="fullName" placeholder="Veronica Uwasi" required>
-          <span class="invalid-feedback">Please enter your full name.</span>
+              <!-- Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="vera@example.com" required>
-          <span class="invalid-feedback">Please enter a valid email.</span>
+      </section>
+
+      <!-- Recipe Section With YouTube video -->
+      <section id="recipes" class="container-section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Recipes</h2>
+          </div>
+          <!--Egusi Soup-->
+          <div class="col-12 col-md-6 col-xl-3 mb-4">
+            <div class="card h-100">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/XeZJlxAsP18"
+                  title="Sisi Jemimah Egusi Soup Recipe"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Egusi Soup</h3>
+                <p class="card-text">
+                  Learn how to make a rich, apetizing and creamy Egusi soup with
+                  our one of our favourites Sisi  Jemimah— This is perfect with
+                  pounded yam or any swallow of your choice.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Amala & Ewedu (Abula)-->
+          <div class="col-12 col-md-6 col-xl-3 mb-4">
+            <div class="card h-100">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/daJYlOxTYrg"
+                  title="Amala and Ewedu Cooking Tutorial"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Amala & Ewedu</h3>
+                <p class="card-text">
+                  Watch how to cook soft Amala paired with Ewedu and stew—the
+                  perfect Abula combination.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--Oha Soup-->
+          <div class="col-12 col-md-6 col-xl-3 mb-4">
+            <div class="card h-100">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/OFkN2tOwIAM"
+                  title="Oha Soup Recipe"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Oha Soup</h3>
+                <p class="card-text">
+                  Discover one of the traditional Igbo delicacy Oha soup from
+                  another amazing chef, Sisi Yemi. Oha soup is flavorful, and
+                  best enjoyed with fufu and eba.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jollof Rice-->
+          <div class="col-12 col-md-6 col-xl-3 mb-4">
+            <div class="card h-100">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/EfZEArZcfAY"
+                  title="Nigerian Party Jollof Rice Recipe"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Jollof Rice</h3>
+                <p class="card-text">
+                  Step-by-step Nigerian smoky Party Jollof Rice. Spicy and
+                  tasty, perfect for any gatherings.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message<span class="text-danger">*</span></label>
-          <textarea class="form-control" id="message" pattern=".*\S+.*"  name="message" placeholder="Drop your message here..." rows="3" required></textarea>
-          <span class="invalid-feedback">Please write a message.</span>
+      </section>
+
+      <!--Ingredients Section-->
+      <section id="ingredients" class="container-section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Ingredients</h2>
+            <h3 class="sub-heading-color">
+              Download a list of ingredients for each recipe below:
+            </h3>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-center gap-3"
+          >
+            <a
+              href="assets/pdfs/Nigerian-Egusi-Soup-Precious.pdf"
+              download
+              class="btn btn-outline-dark"
+              >Download Egusi Soup</a
+            >
+            <a
+              href="assets/pdfs/NigerianJollofricerecipe.pdf"
+              download
+              class="btn btn-outline-danger"
+              >Download Jollof Rice</a
+            >
+            <a
+              href="assets/pdfs/Oha-Soup-Recipe.pdf"
+              download
+              class="btn btn-outline-primary"
+              >Download Oha Soup</a
+            >
+            <a
+              href="assets/pdfs/Ewedu-Soup-Recipe-Chef-Lola's-Kitchen.pdf"
+              download
+              class="btn btn-outline-dark"
+              >Download Amala & Ewedu</a
+            >
+          </div>
         </div>
-        <button type="submit" class="btn btn-warning">Send Message</button>
-      </form>
-    </div>
-</section>
-</main>
-<!-- Footer Section -->
-<footer class="bg-dark text-white mt-auto py-4">
-   <div class="container text-center">
-    <div class="d-flex justify-content-center gap-4">
-      <a href="https://www.facebook.com" class="text-white" target="_blank" rel="noopener" aria-label="Visit our Facebook"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://www.youtube.com" class="text-white" target="_blank" rel="noopener" aria-label="Visit our YouTube"><i class="fab fa-youtube fa-lg"></i></a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter feed (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-    </div>
-    </div>
-</footer>
+      </section>
+
+      <!-- Contact Form Section -->
+      <section id="contact-us" class="contact-section bg-light py-5">
+        <div class="container">
+          <span class="col-12 text-center">
+            <h2 class="display-6">Contact Us</h2>
+            <h3 class="sub-heading-color">
+              We'd love to hear from you! Send us a Feedback.
+            </h3>
+          </span>
+          <form id="contactForm" action="thankyou.html" method="GET">
+            <div class="mb-3">
+              <label for="fullName" class="form-label"
+                >Full Name<span class="text-danger">*</span></label
+              >
+              <input
+                type="text"
+                pattern=".*\S+.*"
+                class="form-control"
+                id="fullName"
+                name="fullName"
+                placeholder="Veronica Uwasi"
+                required
+              />
+              <span class="invalid-feedback">Please enter your full name.</span>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                >Email<span class="text-danger">*</span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="vera@example.com"
+                required
+              />
+              <span class="invalid-feedback">Please enter a valid email.</span>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label"
+                >Message<span class="text-danger">*</span></label
+              >
+              <textarea
+                class="form-control"
+                id="message"
+                pattern=".*\S+.*"
+                name="message"
+                placeholder="Drop your message here..."
+                rows="3"
+                required
+              ></textarea>
+              <span class="invalid-feedback">Please write a message.</span>
+            </div>
+            <button type="submit" class="btn btn-warning">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white mt-auto py-4">
+      <div class="container text-center">
+        <div class="d-flex justify-content-center gap-4">
+          <a
+            href="https://www.facebook.com"
+            class="text-white"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com"
+            class="text-white"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube"
+            ><i class="fab fa-youtube fa-lg"></i
+          ></a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter feed (opens in a new tab)"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
 
     <!--Font Awesome Kit-->
     <script
@@ -262,71 +445,72 @@
     <!--Bootstrap Js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
-        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight =
+                document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
+        });
     </script>
 
-          <!--Form Validation for Whitespace--> 
-   <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const form = document.querySelector('form');
-    const fullName = document.getElementById('fullName');
-    const email = document.getElementById('email');
-    const message = document.getElementById('message');
+    <!--Form Validation for Whitespace-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+        const fullName = document.getElementById("fullName");
+        const email = document.getElementById("email");
+        const message = document.getElementById("message");
 
-    form.addEventListener('submit', function (e) {
-      let valid = true;
+        form.addEventListener("submit", function (e) {
+          let valid = true;
 
-      // Full Name Validation
-      if (!fullName.value.trim()) {
-        fullName.classList.add('is-invalid');
-        valid = false;
-      } else {
-        fullName.classList.remove('is-invalid');
-      }
+          // Full Name Validation
+          if (!fullName.value.trim()) {
+            fullName.classList.add("is-invalid");
+            valid = false;
+          } else {
+            fullName.classList.remove("is-invalid");
+          }
 
-      // Email Validation
-      const emailValue = email.value.trim();
-      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          // Email Validation
+          const emailValue = email.value.trim();
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      if (!emailValue || !emailPattern.test(emailValue)) {
-        email.classList.add('is-invalid');
-        valid = false;
-      } else {
-        email.classList.remove('is-invalid');
-      }
+          if (!emailValue || !emailPattern.test(emailValue)) {
+            email.classList.add("is-invalid");
+            valid = false;
+          } else {
+            email.classList.remove("is-invalid");
+          }
 
-      // Message Validation
-      if (!message.value.trim()) {
-        message.classList.add('is-invalid');
-        valid = false;
-      } else {
-        message.classList.remove('is-invalid');
-      }
+          // Message Validation
+          if (!message.value.trim()) {
+            message.classList.add("is-invalid");
+            valid = false;
+          } else {
+            message.classList.remove("is-invalid");
+          }
 
-      if (!valid) {
-        e.preventDefault(); // Prevent form from submitting
-      }
-    });
-  });
-</script>
+          if (!valid) {
+            e.preventDefault(); // Prevent form from submitting
+          }
+        });
+      });
+    </script>
   </body>
 </html>
