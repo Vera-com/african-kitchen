@@ -247,7 +247,7 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
 
 #### Clone your fork
 ```bash
-git clone https://github.com/your-username/african-kitchen.git
+git clone https://vera-com.github.io/african-kitchen/
 cd african-kitchen
 code .
 
@@ -303,6 +303,7 @@ Chatgpt assistance with troubleshooting to help improve clarity.
 ## Acknowledgements
 Special thanks to:
 Code Institute Slack community
+My mentor Jubril for helping me learn to fix problems,the motivation and always being positive.
 Family and friends for their continuous love, support and motivation.
 ---
 
