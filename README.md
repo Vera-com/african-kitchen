@@ -27,7 +27,7 @@ Live Site: [African Kitchen](https://vera-com.github.io/african-kitchen/)
 
 # User Experience Section
 
-This project is designed with real-life users in mind—Africans abroad, students away from home, and food lovers wishing to reconnect with authentic homemade African meals.
+This project is designed with real-life users in mind—Africans abroad, students away from home, and food lovers wishing to reconnect with authentic homemade African meals. It also includes an interactive Jasvascript to enable form validation and improve user navigation.
 
 ### UX (The 5 Planes)
 
@@ -51,7 +51,7 @@ This project is designed with real-life users in mind—Africans abroad, student
 **As a user**, I want to see a list of ingredients for each dish.
 
 ### User Story 4 — MUST-HAVE  
-**As a user**, I would like to know if there's a way to contact or follow this site on social media.
+**As a user**, I would like to know if there's a way to contact or follow this site on social media. I also want contact forms that can validate my input with the right information so that i dont submit incorrect information or even a blank form.
 
 ### User Story 5 — SHOULD-HAVE  
 **As a user**, I want to download recipe files for offline use.
@@ -129,6 +129,10 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
 - Google Form for contact/feedback.
 - Sticky navbar and smooth scrolling.
 - Footer with social icons.
+- JavaScript form validation to prevent submission of empty or whitespace-only input.
+- JavaScript script that removes form data from the URL after submission.
+- Clickable logo and brand name in navbar for easy return to homepage.
+ 
 
 ---
 
@@ -148,7 +152,8 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
 - Bootstrap 5.3.7  
 - Google Fonts  
 - Font Awesome  
-- JavaScript (navbar, scrolling)  
+- JavaScript (navbar, scrolling) 
+- Custom JavaScript (`script.js`, `minor.js`)
 - Balsamiq (wireframe)  
 - Lighthouse, W3C Validator
 
@@ -156,8 +161,11 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
 
 # Structure
 
-
 ├── index.html ├── thankyou.html ├── README.md ├── assets/ │ ├── css/ │ │ └── style.css │ ├── images/ │ │ └── [carousel, favicon, logo, meals, wireframes, mockups, tests] │ └── pdfs/ │ └── [Egusi, Jollof, Oha, Ewedu recipes]
+
+├── js/
+│   ├── script.js (form validation)
+│   └── minor.js (URL cleanup on Thank You page)
 
 ---
 
@@ -208,6 +216,15 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
   - Re-applied consistent section `padding: 3rem 1rem`
   - Added `scroll-margin-top` to all anchor-linked sections
 
+### 10. Form Submission with Whitespace or Missing Data
+**Issue**: Users could submit the contact form with spaces or incomplete fields.
+**Fix**: Added JavaScript validation to trim and check each input.
+
+### 11. URL Parameters Showing on Thank You Page
+**Issue**: Form input values were appearing in the thankyou.html page URL.
+**Fix**: Added a script to remove query parameters on load (`window.history.replaceState`).
+
+
 
 
 ---
@@ -254,10 +271,14 @@ Best Practices: 100
 ![W3C CSS Validator](assets/images/w3c-validator-css.png)
 
 ## Manual Testing
-Navbar scrolls properly
-All images have alt text
-Responsive across devices
-Contact form submits to thankyou.html page.
+-Navbar scrolls properly
+-All images have alt text
+-Responsive across devices
+-Contact form submits to thankyou.html page.
+- Contact form rejects empty or whitespace-only submissions.
+- Thank You page loads without displaying form data in the URL.
+- Logo and site name are clickable and return to the home section.
+
 
 # Credits Section
 ## Code Pattern
