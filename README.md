@@ -224,6 +224,11 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
 **Issue**: Form input values were appearing in the thankyou.html page URL.
 **Fix**: Added a script to remove query parameters on load (`window.history.replaceState`).
 
+#### Missing Images on GitHub Pages
+
+During final testing and deployment, 3 of the 10 images (afang-soup, amala&ewedu, nigerian-stewed-chicken) in the image carousel were not loading on GitHub Pages, even though they appeared correctly in my local environment. This was caused by case sensitivity in file paths, which GitHub strictly enforces.
+
+Due to limited time before submission and to ensure a clean and responsive user experience, I decided to remove the 3 problematic images. The carousel still functions smoothly with the remaining 7 images. This decision was made to prioritize functionality and was documented clearly in the project. If the need for it arises again i'll gladly complete it.
 
 
 
@@ -254,21 +259,19 @@ code .
 
 #Testing
  ## Lighthouse
-Scores:
-Performance: 90+
-Accessibility: 100
-Best Practices: 100
-![Lighthouse Preview](assets/images/lighthouse-testing.png)
-![Lighthouse Thankyou page](assets/images/lighthouse-thankyou-page.png)
+![Lighthouse Preview](assets/images/final-shot-homepage-lighthouse.png)
+
+![Lighthouse Thankyou page](assets/images/final-shot-thankyoupage-lighthouse.png)
 
  ## HTML Validation
  Validated using W3C HTML Validator
-![W3C HTML](assets/images/w3c-validator-index.png)
-![W3C Thankyou page](assets/images/w3c-validator-thankyou-html.png)
+![W3C HTML](assets/images/wcw-homepage-finalshot.png)
+
+![W3C Thankyou page](assets/images/w3c-thankyoupage-finalshot.png)
 
 ## CSS Validation
  Validated using W3C CSS Validator
-![W3C CSS Validator](assets/images/w3c-validator-css.png)
+![W3C CSS Validator](assets/images/wcw-css-finalshot.png)
 
 ## Manual Testing
 -Navbar scrolls properly
