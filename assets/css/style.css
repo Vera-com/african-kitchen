@@ -9,7 +9,7 @@
     --bg-color: #ffffff;
     --highlight-color-light: #f3a67f; 
 }
-     /*GLOBAL RESETS*/
+     /*Global resets*/
 * {
 box-sizing: border-box;
  margin: 0; 
@@ -38,7 +38,7 @@ h1, h2, h3 {
      color: var(--secondary-color); 
      text-transform: uppercase; 
     }
-/* SECTION STYLING */ 
+/* Section styling */ 
 section { 
     padding: 3rem 1rem; 
     scroll-margin-top: 60px; 
@@ -48,7 +48,7 @@ section h2 {
      text-align: center; 
      margin-bottom: 2rem; 
     }
-/* NAVBAR STYLING */ 
+/* Navbar Styling */ 
 .navbar, #navbar { 
     background-color: var(--primary-color);
      position: fixed;
@@ -79,7 +79,7 @@ section h2 {
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active { 
     color: var(--accent-color); 
 }
-/* HERO SECTION */
+/*Hero section */
  #hero img { 
     max-width: 100%;
      height: auto; 
@@ -88,7 +88,7 @@ section h2 {
      font-family: var(--secondary-font);
      text-align: center; 
     }
-/* RECIPE SECTION */ 
+/* Recipe section */ 
 #recipes .card { 
     margin-bottom: 1.5rem;
  }
@@ -97,7 +97,7 @@ section h2 {
      color: var(--highlight-color-light);
       background-color: transparent; 
     }
-/* INGREDIENTS SECTION */ 
+/* Ingredients section */ 
 #ingredients .table {
      font-size: 0.8rem; 
     }
@@ -106,7 +106,7 @@ section h2 {
     margin: 1rem auto;
      text-align: center;
      }
-/* CONTACT FORM */ 
+/* Contact form */ 
 #contact-us { 
 background-color: transparent;
  padding: 3rem 1rem; 
@@ -155,7 +155,7 @@ form button:hover {
      align-items: center;
       height: 100vh; 
     }
-/*  FOOTER  */
+/*  Footer */
  footer { 
     background-color: var(--primary-color);
      color: var(--text-light);
@@ -163,7 +163,7 @@ form button:hover {
        padding: 20px 0;
         flex-shrink: 0; 
     }
-/* === CUSTOM BUTTONS === */
+/*Custom buttons*/
  .custom-button-filled { 
     border: 2px solid var(--highlight-color-light); 
     background-color: var(--highlight-color-light); 
@@ -179,7 +179,7 @@ form button:hover {
      padding: 7px 25px;
       color: var(--highlight-color-light); 
     }
-/* === MEDIA QUERIES === */
+/*Media queries*/
  @media (max-width: 768px) { 
     .navbar-brand { font-size: 1.1rem; 
     }
