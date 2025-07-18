@@ -76,12 +76,13 @@ This project is designed with real-life users in mind—Africans abroad, student
 
 | Color Name          | HEX Code  |
 |---------------------|-----------|
-| Rich Brown          | `#3a2620` |
-| Warm Beige          | `#E8caa4` |
-| Highlight Red-Orange| `#b33c12` |
-| Light Peach         | `#F3a67f` |
-| Deep Blue Accent    | `#416a8e` |
-| Light Blue Accent   | `#7a9fc2` |
+| Golden Brown        | `#996515` | Used for section headings and hovers.
+|White                | `#fffaf0` | For clean background section.
+|Dark grey            | `#333333` | Text color  
+| Black               | `#000`    | Used for paragraph text.
+|Burnt orange         | `#cc5500` |
+| Border focus        | `#ccc`    | ontact icons (hover)
+| Light grey          |#f5f5f5    | Footer background
 
 ## Typography
 
@@ -161,16 +162,53 @@ Generated with [Techsini Multi-Mockup](https://techsini.com/multi-mockup/index.p
 ---
 
 # Challenges I Faced & How I Solved Them
+### 1.
+**Issue**:Git command & push issues.
+- **Fix**: Used `git pull`, fixed conflicts, then committed again. 
 
-| Issue                        | Solution |
-|-----------------------------|----------|
-| Git command & push issues   | Used `git pull`, fixed conflicts, then committed again |
-| Sticky navbar + white gap   | Used `position: fixed`, tweaked `z-index`, and header padding |
-| Missing logo                | Fixed favicon path in `<link>` |
-| Video layout breaking grid  | Used Bootstrap `ratio-16x9` |
-| Footer spacing too tight    | Added padding and margin |
-| Form not redirecting        | Fixed with `action="thankyou.html"` |
-| Color contrast (Lighthouse) | Updated button background/text for better readability |
+### 2.
+- **Issue**:  Sticky navbar + white gap and  Missing logo
+- **Fix**: Used `position: fixed`, tweaked `z-index`, and header padding as well as  Fixed favicon path in `<link>`.
+
+### 3
+**Issue** Video layout breaking grid and Footer spacing too tight.  
+ **Fix**: Used Bootstrap `ratio-16x9` also added padding and margin.
+
+### 4
+**Issue** Form not redirecting and Color contrast (Lighthouse)
+- **Fix** Fixed with `action="thankyou.html"` and Updated button background/text for better readability 
+
+### 5. Navbar Positioning & Responsiveness
+- **Issue**: Navigation links didn’t scroll to correct section positions. Some headings were partially hidden due to tall navbar.
+- **Fix**:
+  - Adjusted `scroll-margin-top` for all sections (`60px`)
+  - Reduced navbar height and ensured logo + brand name are **side by side** using `display: flex`.
+
+### 6. Contact Section Malfunction
+- **Issue**: Contact section didn’t respond to hover or tap events; icons were unclickable.
+- **Fix**:
+  - Cleaned up conflicting styles
+  - Ensured correct use of anchor tags and added interaction feedback with hover effects
+
+### 7. Inconsistent Image Display
+- **Issue**: Carousel and section images were not displaying due to **case-sensitive filename mismatches**.
+- **Fix**:
+  - Renamed image files in the `assets/images/` folder to **lowercase**
+  - Updated HTML image `src` paths accordingly
+
+### 8. Font Rendering and Block Styling
+- **Issue**: Some font styles rendered as block letters unexpectedly.
+- **Fix**:
+  - Rechecked font imports and `font-family` declarations in CSS
+  - Cleaned up inheritance issues from `*` and `body` rules
+
+### 9. Spacing Between Sections
+- **Issue**: Sections appeared too tight with no clear padding or spacing.
+- **Fix**:
+  - Re-applied consistent section `padding: 3rem 1rem`
+  - Added `scroll-margin-top` to all anchor-linked sections
+
+
 
 ---
 
